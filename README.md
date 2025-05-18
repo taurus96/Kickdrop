@@ -148,8 +148,77 @@ Integration tests use an in-memory database by default, but can be configured to
 
 ---
 
-## Configuration
-Contributions are welcome! Please fork the repository and submit a pull request.
+## Future Enhancements & Integrations
+
+### Event-Driven Architecture Integration
+
+KickdropApi can be integrated into a broader event-driven microservices architecture alongside components such as Orders and Payments. This enables scalable, decoupled workflows and real-time communication between services.
+
+**Example Architecture:**
+
+- **KickdropApi (Product Service):** Manages the shoe catalog and inventory.
+- **Order Service:** Handles order creation, updates, and status.
+- **Payment Service:** Manages payment processing and status.
+- **Message Broker:** (e.g., RabbitMQ, Azure Service Bus, Kafka) Delivers events and commands between services.
+- **Databases:** Each service uses its own persistence store (e.g., SQL Server, PostgreSQL).
+
+**Typical Event/Command Flow:**
+
+1. **Order Placement**
+    - Order Service receives a `PlaceOrder` command.
+    - Emits an `OrderPlaced` event.
+
+2. **Inventory Check**
+    - KickdropApi subscribes to `OrderPlaced`.
+    - Checks inventory, emits `InventoryReserved` or `InventoryOutOfStock`.
+
+3. **Payment Processing**
+    - Payment Service subscribes to `InventoryReserved`.
+    - Processes payment, emits `PaymentSucceeded` or `PaymentFailed`.
+
+4. **Order Completion**
+    - Order Service updates order status based on payment events.
+
+**Sample Events & Commands:**
+
+| Service         | Commands Received         | Events Published                | Persistence Store      |
+|-----------------|--------------------------|---------------------------------|-----------------------|
+| KickdropApi     | ReserveInventory         | InventoryReserved, OutOfStock   | SQL Server            |
+| Order Service   | PlaceOrder, CancelOrder  | OrderPlaced, OrderCancelled     | SQL Server |
+| Payment Service | ProcessPayment           | PaymentSucceeded, PaymentFailed | SQL Server |
+
+**Message Broker Topics/Queues:**
+- `order-events`: `OrderPlaced`, `OrderCancelled`
+- `inventory-events`: `InventoryReserved`, `InventoryOutOfStock`
+- `payment-events`: `PaymentSucceeded`, `PaymentFailed`
+
+**Example Event Payloads:**
+- `OrderPlaced { OrderId, Items, UserId }`
+- `InventoryReserved { OrderId, Items }`
+- `PaymentSucceeded { OrderId, PaymentId }`
+
+**Diagram (Textual):**
+```
++----------------+         +----------------+         +----------------+
+|  KickdropApi   | <-----> | Message Broker | <-----> | Order Service  |
+| (Product Svc)  |         | (RabbitMQ, etc)|         |                |
++----------------+         +----------------+         +----------------+
+        ^                          ^                          ^
+        |                          |                          |
+        v                          v                          v
++----------------+         +----------------+         +----------------+
+|  SQL Server    |         | Payment Svc    |         |  SQL Server    |
+|  (Products)    |         |                |         |  (Orders)      |
++----------------+         +----------------+         +----------------+
+                                   |
+                                   v
+                            +--------------+
+                            |  SQL Server  |
+                            |  (Payments)  |
+                            +--------------+
+```
+
+**This architecture enables loose coupling, scalability, and resilience across your microservices.**
 
 ---
 
@@ -162,3 +231,5 @@ Contributions are welcome! Please fork the repository and submit a pull request.
 ## License
 
 This project is licensed under the MIT License.
+
+---
