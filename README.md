@@ -1,3 +1,7 @@
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/29a56470-c1fd-4217-80b1-cb7b5fcb9534" alt="Logo" width="200">
+</div>
+
 # Kickdrop
 
 Kickdrop is a sample ASP.NET Core Web API application for managing a shoe product catalog. It demonstrates modern .NET backend development practices, including Entity Framework Core, JWT authentication, and integration/unit testing.
