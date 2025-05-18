@@ -199,23 +199,8 @@ KickdropApi can be integrated into a broader event-driven microservices architec
 
 **Diagram (Textual):**
 ```
-+----------------+         +----------------+         +----------------+
-|  KickdropApi   | <-----> | Message Broker | <-----> | Order Service  |
-| (Product Svc)  |         | (RabbitMQ, etc)|         |                |
-+----------------+         +----------------+         +----------------+
-        ^                          ^                          ^
-        |                          |                          |
-        v                          v                          v
-+----------------+         +----------------+         +----------------+
-|  SQL Server    |         | Payment Svc    |         |  SQL Server    |
-|  (Products)    |         |                |         |  (Orders)      |
-+----------------+         +----------------+         +----------------+
-                                   |
-                                   v
-                            +--------------+
-                            |  SQL Server  |
-                            |  (Payments)  |
-                            +--------------+
+![image](https://github.com/user-attachments/assets/6825150b-1a03-4da0-b968-2ab29951da9f)
+
 ```
 
 **This architecture enables loose coupling, scalability, and resilience across your microservices.**
