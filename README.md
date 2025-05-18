@@ -197,11 +197,10 @@ KickdropApi can be integrated into a broader event-driven microservices architec
 - `InventoryReserved { OrderId, Items }`
 - `PaymentSucceeded { OrderId, PaymentId }`
 
-**Diagram (Textual):**
-```
-![image](https://github.com/user-attachments/assets/6825150b-1a03-4da0-b968-2ab29951da9f)
+**Integration with other Services - Architectural Diagram :**
 
-```
+![image](https://github.com/user-attachments/assets/76ef2592-dd3d-41df-9e27-a3543fbe85e3)
+
 
 **This architecture enables loose coupling, scalability, and resilience across your microservices.**
 
