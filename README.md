@@ -202,7 +202,7 @@ KickdropApi can be integrated into a broader event-driven microservices architec
 ![image](https://github.com/user-attachments/assets/76ef2592-dd3d-41df-9e27-a3543fbe85e3)
 
 
-**This architecture enables loose coupling, scalability, and resilience across your microservices.**
+**This architecture enables loose coupling, scalability, and resilience across the microservices with domain boundries defined between the core static entities of the system, transactional and financial processes.**
 
 ---
 
