@@ -1,0 +1,181 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Development\\Research\\Kickdrop\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C5B8A7-4B5E-4C8C-9D3C-2F1A8D5F1D4D}|Kickdrop.Api\\Kickdrop.Api.csproj|c:\\development\\research\\kickdrop\\kickdrop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1C5B8A7-4B5E-4C8C-9D3C-2F1A8D5F1D4D}|Kickdrop.Api\\Kickdrop.Api.csproj|solutionrelative:kickdrop.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C02141-5871-4FE1-A63B-66C1A76B1419}|Kickdrop.Tests\\Kickdrop.Tests.csproj|c:\\development\\research\\kickdrop\\kickdrop.tests\\unit\\productservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21C02141-5871-4FE1-A63B-66C1A76B1419}|Kickdrop.Tests\\Kickdrop.Tests.csproj|solutionrelative:kickdrop.tests\\unit\\productservicetests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C02141-5871-4FE1-A63B-66C1A76B1419}|Kickdrop.Tests\\Kickdrop.Tests.csproj|c:\\development\\research\\kickdrop\\kickdrop.tests\\integration\\productapitests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21C02141-5871-4FE1-A63B-66C1A76B1419}|Kickdrop.Tests\\Kickdrop.Tests.csproj|solutionrelative:kickdrop.tests\\integration\\productapitests.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C5B8A7-4B5E-4C8C-9D3C-2F1A8D5F1D4D}|Kickdrop.Api\\Kickdrop.Api.csproj|c:\\development\\research\\kickdrop\\kickdrop.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1C5B8A7-4B5E-4C8C-9D3C-2F1A8D5F1D4D}|Kickdrop.Api\\Kickdrop.Api.csproj|solutionrelative:kickdrop.api\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C02141-5871-4FE1-A63B-66C1A76B1419}|Kickdrop.Tests\\Kickdrop.Tests.csproj|c:\\development\\research\\kickdrop\\kickdrop.tests\\customwebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{21C02141-5871-4FE1-A63B-66C1A76B1419}|Kickdrop.Tests\\Kickdrop.Tests.csproj|solutionrelative:kickdrop.tests\\customwebapplicationfactory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C5B8A7-4B5E-4C8C-9D3C-2F1A8D5F1D4D}|Kickdrop.Api\\Kickdrop.Api.csproj|c:\\development\\research\\kickdrop\\kickdrop.api\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D1C5B8A7-4B5E-4C8C-9D3C-2F1A8D5F1D4D}|Kickdrop.Api\\Kickdrop.Api.csproj|solutionrelative:kickdrop.api\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{21C02141-5871-4FE1-A63B-66C1A76B1419}|Kickdrop.Tests\\Kickdrop.Tests.csproj|c:\\development\\research\\kickdrop\\kickdrop.tests\\kickdrop.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{21C02141-5871-4FE1-A63B-66C1A76B1419}|Kickdrop.Tests\\Kickdrop.Tests.csproj|solutionrelative:kickdrop.tests\\kickdrop.tests.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C5B8A7-4B5E-4C8C-9D3C-2F1A8D5F1D4D}|Kickdrop.Api\\Kickdrop.Api.csproj|c:\\development\\research\\kickdrop\\kickdrop.api\\kickdrop.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{D1C5B8A7-4B5E-4C8C-9D3C-2F1A8D5F1D4D}|Kickdrop.Api\\Kickdrop.Api.csproj|solutionrelative:kickdrop.api\\kickdrop.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D1C5B8A7-4B5E-4C8C-9D3C-2F1A8D5F1D4D}|Kickdrop.Api\\Kickdrop.Api.csproj|c:\\development\\research\\kickdrop\\kickdrop.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{D1C5B8A7-4B5E-4C8C-9D3C-2F1A8D5F1D4D}|Kickdrop.Api\\Kickdrop.Api.csproj|solutionrelative:kickdrop.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{007a3a6b-b5b2-454d-a2bd-cf929f989be2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CustomWebApplicationFactory.cs",
+              "DocumentMoniker": "C:\\Development\\Research\\Kickdrop\\Kickdrop.Tests\\CustomWebApplicationFactory.cs",
+              "RelativeDocumentMoniker": "Kickdrop.Tests\\CustomWebApplicationFactory.cs",
+              "ToolTip": "C:\\Development\\Research\\Kickdrop\\Kickdrop.Tests\\CustomWebApplicationFactory.cs",
+              "RelativeToolTip": "Kickdrop.Tests\\CustomWebApplicationFactory.cs",
+              "ViewState": "AQIAABoAAAAAAAAAAAAQwB0AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-18T01:27:00.976Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Kickdrop.Api.csproj",
+              "DocumentMoniker": "C:\\Development\\Research\\Kickdrop\\Kickdrop.Api\\Kickdrop.Api.csproj",
+              "RelativeDocumentMoniker": "Kickdrop.Api\\Kickdrop.Api.csproj",
+              "ToolTip": "C:\\Development\\Research\\Kickdrop\\Kickdrop.Api\\Kickdrop.Api.csproj",
+              "RelativeToolTip": "Kickdrop.Api\\Kickdrop.Api.csproj",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-18T01:19:08.975Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Kickdrop.Tests.csproj",
+              "DocumentMoniker": "C:\\Development\\Research\\Kickdrop\\Kickdrop.Tests\\Kickdrop.Tests.csproj",
+              "RelativeDocumentMoniker": "Kickdrop.Tests\\Kickdrop.Tests.csproj",
+              "ToolTip": "C:\\Development\\Research\\Kickdrop\\Kickdrop.Tests\\Kickdrop.Tests.csproj",
+              "RelativeToolTip": "Kickdrop.Tests\\Kickdrop.Tests.csproj",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABIAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-17T17:04:48.559Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Development\\Research\\Kickdrop\\Kickdrop.Api\\appsettings.json",
+              "RelativeDocumentMoniker": "Kickdrop.Api\\appsettings.json",
+              "ToolTip": "C:\\Development\\Research\\Kickdrop\\Kickdrop.Api\\appsettings.json",
+              "RelativeToolTip": "Kickdrop.Api\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-17T17:10:40.079Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Development\\Research\\Kickdrop\\Kickdrop.Api\\Program.cs",
+              "RelativeDocumentMoniker": "Kickdrop.Api\\Program.cs",
+              "ToolTip": "C:\\Development\\Research\\Kickdrop\\Kickdrop.Api\\Program.cs",
+              "RelativeToolTip": "Kickdrop.Api\\Program.cs",
+              "ViewState": "AQIAAFAAAAAAAAAAAAAQwF4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T17:10:41.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ProductApiTests.cs",
+              "DocumentMoniker": "C:\\Development\\Research\\Kickdrop\\Kickdrop.Tests\\Integration\\ProductApiTests.cs",
+              "RelativeDocumentMoniker": "Kickdrop.Tests\\Integration\\ProductApiTests.cs",
+              "ToolTip": "C:\\Development\\Research\\Kickdrop\\Kickdrop.Tests\\Integration\\ProductApiTests.cs",
+              "RelativeToolTip": "Kickdrop.Tests\\Integration\\ProductApiTests.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAwwBQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T16:43:33.646Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "C:\\Development\\Research\\Kickdrop\\Kickdrop.Api\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Kickdrop.Api\\Controllers\\ProductController.cs",
+              "ToolTip": "C:\\Development\\Research\\Kickdrop\\Kickdrop.Api\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Kickdrop.Api\\Controllers\\ProductController.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAQwCwAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T16:37:33.805Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "C:\\Development\\Research\\Kickdrop\\Kickdrop.Api\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "Kickdrop.Api\\Services\\ProductService.cs",
+              "ToolTip": "C:\\Development\\Research\\Kickdrop\\Kickdrop.Api\\Services\\ProductService.cs",
+              "RelativeToolTip": "Kickdrop.Api\\Services\\ProductService.cs",
+              "ViewState": "AQIAABEAAAAAAAAAAAAmwBwAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T16:33:09.572Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProductServiceTests.cs",
+              "DocumentMoniker": "C:\\Development\\Research\\Kickdrop\\Kickdrop.Tests\\Unit\\ProductServiceTests.cs",
+              "RelativeDocumentMoniker": "Kickdrop.Tests\\Unit\\ProductServiceTests.cs",
+              "ToolTip": "C:\\Development\\Research\\Kickdrop\\Kickdrop.Tests\\Unit\\ProductServiceTests.cs",
+              "RelativeToolTip": "Kickdrop.Tests\\Unit\\ProductServiceTests.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAHIAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-17T16:24:29.37Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

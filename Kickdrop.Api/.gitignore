@@ -1,0 +1,38 @@
+# .NET build artifacts
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Rider
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# User secrets
+secrets.json
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Others
+*.swp
+*.bak
+*.tmp
+
+# Entity Framework Migrations snapshot files
+Migrations/*.Designer.cs
+Migrations/*Snapshot.cs
+
+# Publish output
+publish/

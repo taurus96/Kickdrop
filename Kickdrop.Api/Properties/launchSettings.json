@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "Kickdrop.Api": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:18620;https://localhost:18621",
+      "launchUrl": "swagger"
+    }
+  }
+}
